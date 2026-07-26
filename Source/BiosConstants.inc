@@ -1,0 +1,1 @@
+%define BIOS_READ_ATTEMPTS 3

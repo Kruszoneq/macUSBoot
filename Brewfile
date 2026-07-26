@@ -1,0 +1,2 @@
+brew "nasm"
+brew "python"

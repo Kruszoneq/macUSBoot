@@ -1,0 +1,31 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# macOS filesystem and volume metadata
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.Trash-*
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.com.apple.timemachine.supported
+.hotfiles.btree
+
+# macOS network and removable-volume metadata
+.AppleDB
+.AppleDesktop
+.apdisk
+Network Trash Folder
+Temporary Items
+
+# Generated build artifacts
+build/
+
+# Local temporary work notes
+tmp/
