@@ -1,0 +1,34 @@
+name: macUSBoot repository issue
+description: Report a problem strictly related to macUSBoot or this repository.
+title: "[Issue]: "
+labels: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        macUSBoot is installed and used through macUSB. If you encounter a
+        problem while creating Windows installation media or booting media
+        created by macUSB, submit the issue through
+        [macUSB Issues](https://github.com/Kruszoneq/macUSB/issues).
+
+        Use this form only for problems strictly related to macUSBoot or this
+        repository.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: Explain the problem, its context, and any details needed to understand or reproduce it.
+      placeholder: Describe the macUSBoot or repository issue.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: scope-confirmation
+    attributes:
+      label: Scope confirmation
+      options:
+        - label: I understand that my report does not concern the USB creation process or booting media created by macUSB.
+          required: true
